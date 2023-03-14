@@ -1,8 +1,7 @@
 [[redirects]]
-  from = "/*"
+  from = "/api/*"
   to = "https://lizard-arrow-pastry.glitch.me/:splat"
-  status = 200
-  headers = {Access-Control-Allow-Origin = "*"}
+  headers = {Access-Control-Allow-Origin = "*", Content-Type = "application/json"}
 
 [[redirects]]
   from = "/*"
